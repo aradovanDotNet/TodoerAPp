@@ -82,10 +82,10 @@
      dotnet new webapi --use-controllers -o ProjektAPI
 
 #### Instalacija paketa za scaffolding
-     dotnet add package Microsoft.EntityFrameworkCore.Design -v 8.0.10
-     dotnet add package Microsoft.EntityFrameworkCore.SqlServer -v 8.0.10
-     dotnet add package Microsoft.EntityFrameworkCore.Tools -v 8.0.10
-     dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design -v 8.0.6
+     dotnet add package Microsoft.EntityFrameworkCore.Design
+     dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+     dotnet add package Microsoft.EntityFrameworkCore.Tools
+     dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
 
 #### Scaffolding modela
      dotnet aspnet-codegenerator controller -name NazivKontroler -async -api -m NazivModela -dc NazivDbContexta -outDir Controllers
