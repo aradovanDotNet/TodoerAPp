@@ -37,7 +37,7 @@
      dotnet ef database update
 
 #### Konekcijski string
-     Server=sql.vub.zone,14330;Database=korime-aplikacija;User Id=sa;Password=VUBserver2020;TrustServerCertificate=True;Encrypt=False;
+     (pronaći ga na stranicama predmeta)
 
 # MVC
 
